@@ -11,7 +11,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     interface  Object{
           String ARG_OBJ = "object";
     }
-    Fragment fragment;
     public ViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }

@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         viewPager2.setAdapter(getAdapter());
+
+        //configurando el tab , iconos y texto
         TabLayoutMediator tabLayoutMediator = new TabLayoutMediator(tabLayout,viewPager2,
                 new TabLayoutMediator.TabConfigurationStrategy() {
                     @Override
